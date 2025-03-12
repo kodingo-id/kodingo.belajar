@@ -1,30 +1,17 @@
-# 🚀 Kodingo - Eksplorasi Pemrograman C
+# 📌 Single Linked List – Kodingo
 
-Selamat datang di **Kodingo**, tempat eksplorasi seru seputar **bahasa C**! 💡  
-Repositori ini berisi catatan perjalanan pembelajaran, eksperimen kode, serta berbagai tantangan pemrograman C yang telah diselesaikan.
+> **Branch:** `topic-001-single-linkedlist` > **Tanggal:** 12/03/2025  
+> **Status:** ⏳ Sedang dipelajari
 
-## 📌 Apa yang Ada di Repo Ini?
+## 📝 Deskripsi Singkat
 
-✅ Implementasi algoritma dasar & lanjutan  
-✅ Struktur data seperti Linked List, Stack, dan Queue  
-✅ Rekursi dan Dynamic Programming  
-✅ Sorting & Searching Algorithms  
-✅ Graph & Tree (DFS, BFS, MST, dll.)  
-✅ Debugging & Best Practices dalam C
+Materi dasar mengenai Single Linked List
 
-## 🎯 Tujuan
+## 🔥 Materi yang Dipelajari
 
-🔹 Membangun pemahaman mendalam tentang C  
-🔹 Menyelesaikan berbagai tantangan problem solving  
-🔹 Membagikan kode dan konsep untuk referensi bersama
-
-## 🚀 Teknologi yang Digunakan
-
-- **Compiler:** GCC
-- **IDE/Text Editor:** VS Code, Dev-C++, CodeBlocks
-
-## 📚 Referensi
-
-📖 Internet
-
-Jangan ragu untuk explore, fork, atau diskusi! **Happy coding!** 🎉
+- ✅ **[Topik 1]** – Insert Before SLL
+- ✅ **[Topik 2]** – Insert After SLL
+- ✅ **[Topik 3]** – Delete Before SLL
+- ✅ **[Topik 4]** – Delete After SLL
+- ⏳ **[Topik 5]** – Insert Tertentu SLL
+- ⏳ **[Topik 6]** – Delete Tertentu SLL

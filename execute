@@ -1,6 +1,0 @@
-buka CMD, jangan powershell:
-gcc template.c -o template && .\template < input.in > output.out
-g++ template.cpp -o template && .\template < input.in > output.out
-
-gcc !.c -o ! && .\! < input.in > output.out
-g++ !.cpp -o ! && .\! < input.in > output.out
