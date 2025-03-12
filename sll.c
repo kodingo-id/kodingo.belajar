@@ -27,7 +27,7 @@ void dummy();
 
 
 int main() {
-  dummy();
+  // dummy();
   getUserChoice();
 }
 
@@ -48,19 +48,19 @@ void getUserChoice() {
 
     switch (choice) {
     case '1':
-      sisipAwal();
+      // sisipAwal();
       break;
     case '2':
-      sisipAkhir();
+      // sisipAkhir();
       break;
     case '3':
-      hapusAwal();
+      // hapusAwal();
       break;
     case '4':
-      hapusAkhir();
+      // hapusAkhir();
       break;
     case '5':
-      display();
+      // display();
       break;
     default:
       puts("INPUT INVALID!");
@@ -72,6 +72,8 @@ void getUserChoice() {
   puts("\nSELESAI");
 }
 
+// minjem memory di ram, dan input dari user
+// dipake di 'sisip awal' n 'sisip akhir'
 void allocation() {
   newNode = (Node*) malloc(sizeof(Node));
 
@@ -99,8 +101,6 @@ void freeNode(Node* p) {
 
 void sisipAwal() {
   allocation();
-  Node* tail = head;
-
   newNode->next = head;
   head = newNode;
 }
@@ -114,7 +114,7 @@ void sisipAkhir() {
     return;
   }
   while (tail->next != NULL) {
-    tail = tail->next;
+    tail = tail->next; // kalo tidak null, masuk ke statement ini
   }
   tail->next = newNode;
 }
